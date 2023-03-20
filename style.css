@@ -28,6 +28,8 @@ h1{
    justify-content: space-between;
    align-items: center;
    color: darkcyan;
+     margin-bottom: 18px;
+ 
 }
 
 input{
@@ -43,5 +45,8 @@ input{
 
 p{
     color: darkcyan;
+    font-size: 18px;
 }
-
+.container > p:nth-of-type(2){
+    color: red;
+}
